@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - assing a random number to the variable n each time
