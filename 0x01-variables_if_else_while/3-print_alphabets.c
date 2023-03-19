@@ -8,9 +8,9 @@ int main(void)
 	char low[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int l;
 
-	for (i = 0; i < 52; i++)
+	for (l = 0; l < 52; l++)
 	{
-		putchar(low[i]);
+		putchar(low[l]);
 	}
 	putchar('\n');
 	return (0);
