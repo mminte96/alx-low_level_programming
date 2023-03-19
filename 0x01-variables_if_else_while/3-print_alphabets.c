@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-	char low;
-	char upp;
+	char low[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int l;
 
-	for (low = 'a'; low <= 'z', low++ && upp = 'A'; upp <= 'Z'; upp++)
+	for (i = 0; i < 52; i++)
 	{
-		putchar(low);
-		putchar(upp);
+		putchar(i);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
