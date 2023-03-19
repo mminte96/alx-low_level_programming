@@ -5,12 +5,11 @@
  */
 int main(void)
 {
-	char low[26] = "zyxwvutsrqponmlkjihgfedcba";
-	int i;
+	char low;
 
-	for (i = 122; i <= 97; i--)
+	for (low = 'z'; low <= 'a'; low--)
 	{
-		putchar(low[i]);
+		putchar(low);
 	}
 	putchar('\n');
 	return (0);
