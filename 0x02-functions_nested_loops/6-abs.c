@@ -10,7 +10,6 @@ int _abs(int r)
 	if (r < 0)
 	{
 		return (-r);
-		_putchar('\n');
 	}
 	else if (r >= 0)
 	{
