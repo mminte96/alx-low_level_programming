@@ -18,7 +18,7 @@ void print_to_98(int n)
 				printf("%d\n", rec);
 		}
 	}
-	else if (rel >= 98)
+	else if (n >= 98)
 	{
 		for (rel = n; rel >= 98; rel--)
 		{
