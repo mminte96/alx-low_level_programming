@@ -2,7 +2,7 @@
 /**
  * positive_or_negative - test code to debug it
  * @i: will be checked
- * Return: Always (Success)
+ * Return: 0
  */
 void positive_or_negative(int i)
 {
