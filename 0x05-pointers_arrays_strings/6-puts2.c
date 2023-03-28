@@ -17,7 +17,7 @@ void puts2(char *str)
 		a++;
 		strig++;
 	}
-	ii = strig - 1;
+	i = strig - 1;
 	for (v = 0; v <= i; v++)
 	{
 		if (v % 2 == 0)
