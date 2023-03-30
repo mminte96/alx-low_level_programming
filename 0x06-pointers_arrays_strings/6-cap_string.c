@@ -14,7 +14,20 @@ char *cap_string(char *v)
 		{
 			point++;
 		}
-		if (v[point - 1] == ' ' || v[point - 1] == '\t' || v[point - 1] == '\n' || v[point - 1] == ',' || v[point - 1] == ';' || v[point - 1] == '.' || v[point - 1] == '!' || v[point - 1] == '?' || v[point - 1] == '"' || v[point - 1] == '(' || v[point - 1] == ')' || v[point - 1] == '{' || v[point - 1] == '}' || point == 0)
+		if (v[point - 1] == ' ' ||
+			v[point - 1] == '\t' ||
+			v[point - 1] == '\n' ||
+			v[point - 1] == ',' ||
+			v[point - 1] == ';' ||
+			v[point - 1] == '.' ||
+			v[point - 1] == '!' ||
+			v[point - 1] == '?' ||
+			v[point - 1] == '"' ||
+			v[point - 1] == '(' ||
+			v[point - 1] == ')' ||
+			v[point - 1] == '{' ||
+			v[point - 1] == '}' ||
+			point == 0)
 		{
 			v[point] -= 32;
 		}
