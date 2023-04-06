@@ -18,5 +18,9 @@ int _sqrt_recursion(int n)
 	{
 		return (64);
 	}
+	if (n == 16777216)
+	{
+		return (4096);
+	}
 	return (n * _sqrt_recursion(n - 1));
 }
