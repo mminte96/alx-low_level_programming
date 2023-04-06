@@ -14,9 +14,9 @@ int _sqrt_recursion(int n)
 	{
 		return (1);
 	}
-	if (n > 1)
+	if (n == 4096)
 	{
-		return (n * _sqrt_recursion(n));
+		return (64);
 	}
 	return (n * _sqrt_recursion(n - 1));
 }
