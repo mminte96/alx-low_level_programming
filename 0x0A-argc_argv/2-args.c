@@ -4,6 +4,7 @@
  * main - a program that prints all arguments it receives
  * @argc: input value
  * @argv: input value
+ * Return: Always (success)
  */
 int main(int argc, char *argv[])
 {
