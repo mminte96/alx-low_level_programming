@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * free_grid - a function that returns a pointer to a 2 dimensional array of integers
+ * int **alloc_grid - returns a pointer to a 2 dimensional
  * @width: input value
  * @height: input value
  * Return: NULL
