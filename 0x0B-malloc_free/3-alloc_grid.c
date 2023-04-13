@@ -7,7 +7,7 @@
  * @height: input value
  * Return: NULL
  */
-nt **alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int a;
 	int b;
