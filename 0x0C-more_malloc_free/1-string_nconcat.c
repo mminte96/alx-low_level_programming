@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
 #include "main.h"
 /**
  * char *string_nconcat - a function that concatenates two strings
