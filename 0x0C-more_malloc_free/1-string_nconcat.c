@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	else
 	{
-		pointe = malloc(sizeof(char) * (lng + n + 1));
+		pointe = malloc(sizeof(char) * (tail + lng + 1));
 	}
 	if (!pointe)
 		return (NULL);
