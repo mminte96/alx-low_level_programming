@@ -1,7 +1,7 @@
 #ifndef STRUCT_DOG
 #define STRUCT_DOG
 /**
- * srtuct dog - Define a new type struct
+ * struct dog - Define a new type struct
  * @name: type of stuct
  * @age: type float
  * @owner: another char
