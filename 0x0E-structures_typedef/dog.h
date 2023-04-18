@@ -14,7 +14,7 @@ struct dog
 	char *owner;
 };
 /**
- * struct dog - prototype
+ * dog_t - prototype
  */
 typedef struct dog dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
