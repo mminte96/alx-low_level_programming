@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * array_iterator - a function that executes a function given as a parameter
+ * array_iterator - a function that executes a function size_t
  * @array: an array of function
- * @size_t size: an element of function
+ * @size: an element of function
  * @action: another function
  * Return: Nothing
  */
