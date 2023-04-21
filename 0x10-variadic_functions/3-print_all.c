@@ -40,6 +40,8 @@ void print_all(const char * const format, ...)
 					i++;
 					continue;
 			}
+			space = ", ";
+			i++;
 		}
 	}
 	printf("\n");
