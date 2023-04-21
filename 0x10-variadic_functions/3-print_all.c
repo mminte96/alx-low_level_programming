@@ -31,9 +31,9 @@ void print_all(const char * const format, ...)
 					break;
 				case 's':
 					stdr = va_arg(all, char *);
-					if (!stdr)
+					if (stdr == NULL)
 					{
-						stdr = "(nill)";
+						printf("(nill)");
 					}
 					printf("%s%s", space, stdr);
 					break;
