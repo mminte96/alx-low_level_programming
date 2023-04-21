@@ -34,7 +34,7 @@ void print_all(const char * const format, ...)
 					{
 						printf("(nill)");
 					}
-					printf("%s%s", all, stdr);
+					printf("%s%s", space, stdr);
 					break;
 				default:
 					i++;
