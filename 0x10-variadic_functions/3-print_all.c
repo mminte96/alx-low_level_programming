@@ -9,7 +9,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	char space = "", stdr;
+	char *space = "", *stdr;
 	int i = 0;
 	va_list all;
 
